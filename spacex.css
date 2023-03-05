@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gajraj+One&family=Lobster&family=Rubik:wght@500&family=Tilt+Prism&family=Tilt+Warp&display=swap');
+body{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    
+}
+.mainhead{
+    position: sticky;
+    top: 0px;
+}
+.secondbghead{
+    position: sticky;
+    top: 80px;
+}
+.first_div{
+    /* background-color: #ff0000; */
+    height: 625px;
+    background-image: url("./spaceximg/first_bg.jpg");
+    background-size: cover;
+}
+.second_div{
+    height: 625px;
+    background-image: url("./spaceximg/second_bg.jpg");
+    background-size: cover;
+}
+.logoimg{
+    height: 33px;
+    width: 230px;
+    margin-top: 24px;
+    margin-left: 46px;
+}
+.titles{
+    color: white;
+    text-decoration: none;
+    /* font-family: 'Rubik', sans-serif; */
+    font-size: 13px;
+    padding-top: 15px;
+    height: 30px; 
+    transition: 1s ease-in-out;  
+}
+.titles:hover{
+    text-decoration: solid underline 2px white;
+}
+.text1{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    margin-left: 50px;
+    margin-top: 250px;
+}
+.text2{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    margin-left: 46px;
+    margin-top: -43px;
+    animation: anim 5s linear 0s infinite ;
+
+}
+
+nav ul li {
+    display: inline-block;
+	margin: 10px;
+    margin-top: 20px;
+	
+}
+nav ul{
+    margin-left: 240px;
+    margin-top: -46px;
+}
+.titles-9{
+    margin-left: 107px;
+}
+.sidebutton{
+    position: absolute;
+    margin-right: 20px;
+    margin-top: -23px;
+    background-color: black;
+}
+.menubu{
+    height: 4px;
+    width: 30px;
+    background-color: white;
+}
+.bu1{
+    margin-top: 3px;
+}
+.bu2{
+    margin-top: 3px;
+}
+.bu3{
+    margin-top: 3px;
+}
+.rewatch1{
+    background-color: rgba(0, 0, 0, 0.274);
+    color: white;
+    border: 2px white solid;
+    height: 60px;
+    width: 200px;
+    margin-left: 51px;
+    margin-top: -32px;
+    transition: .40s ease-in-out;
+}
+.rewatch1:hover{
+    background-color: white;
+    color: black;
+}
+.third_div{
+    height: 625px;
+    background-image: url("./spaceximg/bg3.webp");
+    background-size: cover;
+}
+.shopcover{
+    height: 400px;
+    background-image: url("./spaceximg/shop_spacex.webp");
+    background-size: cover;
+}
+.SHOPCOVERTXT{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    padding: 109px;
+    padding-left: 35%;
+    animation: anim 2s ease-in 0s infinite ;
+
+}
+@keyframes anim{
+    0%{
+        color: #005288;
+    }
+    50%{
+        color: #37c5ef;
+    }
+    100%{
+        color: #a7a9ac;
+    }
+}
+.shopitems{
+    height: 538px;
+}
+.item{
+    height: 538px;
+    width: 33.33%;
+    float: left;
+    transition: 1.50s ease-in-out;
+}
+.item:hover{
+    transform: scale(1.1);
+}
+.item-1{
+    background-image: url("./spaceximg/WOMENShopimg.webp");
+    background-size: cover;
+    
+}
+.item-2{
+    background-image: url("./spaceximg/MENShopimg.webp");
+    background-size: cover;
+}
+.item-3{
+    background-image: url("./spaceximg/accesorryshopimg.webp");
+    background-size: cover;
+}
+.itemsbut{
+   
+    height: 92px;
+    width: 174px;
+    border: 0;
+    margin-left: 45px;
+    margin-top: 340px;
+    transition: .30s ease-in-out;
+}
+.itemsbut:hover{
+    border: 1px white solid;
+    background-color: rgba(128, 128, 128, 0.055);
+}
+.prefooterdiv{
+    height: 30px;
+    background-color: rgba(236, 234, 234, 0.788);
+}
+.footerdiv{
+    height: 100px;
+    background-color: black;
+}
+.footul{
+    color: white;
+}
+.titles75{
+    color: white;
+    text-decoration: none;
+    /* font-family: 'Rubik', sans-serif; */
+    font-size: 13px;
+    padding-top: 15px;
+    height: 30px; 
+    transition: 1s ease-in-out;  
+}
+
+
+
+
